@@ -1,10 +1,10 @@
 function makeArray(firstArray, secondArray, maxLength) {
-    const twoArrey = [...firstArray, ...secondArray];
+    const mergedArray = [...firstArray, ...secondArray];
 
-    if (twoArrey.length > maxLength) {
-        return twoArrey.slice(0, maxLength);
+    if (mergedArray .length > maxLength) {
+        return mergedArray .slice(0, maxLength);
     } else {
-        return twoArrey;
+        return mergedArray ;
     }
 }
 
