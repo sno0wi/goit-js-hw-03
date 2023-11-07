@@ -2,7 +2,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     const mergedArray = [...firstArray, ...secondArray];
 
     if (mergedArray .length > maxLength) {
-        return mergedArray .slice(0, maxLength);
+        return mergedArray.slice(0, maxLength);
     } else {
         return mergedArray ;
     }
